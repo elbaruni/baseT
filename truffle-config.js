@@ -56,10 +56,8 @@ module.exports = {
       },
       rinkeby: {
         provider: () => new HDWalletProvider(privatekey, `https://rinkeby.infura.io/v3/e4dc43ec8db64b0cbd34f7d424f51b53`),
-        network_id: 4,       // Ropsten's id
-           // Ropsten has a lower block limit than mainnet
-        //confirmations: 2,    // # of confs to wait between deployments. (default: 0)
-        //timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
+        network_id: 4,       // rinkeby's id
+            
         skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
       }
 
