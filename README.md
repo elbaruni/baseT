@@ -1,3 +1,3 @@
 # To deploy to Rinkeby
 
-    truffle migrate --network rinkeby --reset
+    truffle migrate --network rinkeby
